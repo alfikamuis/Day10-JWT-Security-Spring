@@ -1,4 +1,4 @@
-# Day10-JWT-Spring-Security
+# Day10-JWT-Spring-Security (bug)
  Simple User-Role auth
  
  ![image](https://user-images.githubusercontent.com/38674801/187071638-f5e91aae-5ee5-493d-8e1f-17c2dea816e0.png)

@@ -24,14 +24,14 @@ public class UserControl {
         return new ResponseEntity<>(userService.getUsers(), HttpStatus.OK);
     }
 
-    //@RequestMapping(method = RequestMethod.POST, headers = "action=save-user")
-    @PostMapping(name = "/saveUser")
+    @RequestMapping(method = RequestMethod.POST, headers = "action=save-user")
+    //@PostMapping(name = "/saveUser")
     public ResponseEntity<User> saveUser(@RequestBody User user) {
         return new ResponseEntity<>(userService.saveUser(user),HttpStatus.OK);
     }
 
-    //@RequestMapping(method = RequestMethod.POST, headers = "action=save-role")
-    @PostMapping(name = "/saveRole")
+    @RequestMapping(method = RequestMethod.POST, headers = "action=save-role")
+    //@PostMapping(name = "/saveRole")
     public ResponseEntity<Role> saveRole(@RequestBody Role role) {
         return new ResponseEntity<>(userService.saveRole(role),HttpStatus.OK);
     }
